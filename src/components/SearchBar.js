@@ -49,7 +49,9 @@ function SearchBar() {
     return () => {
       cancel();
     };
-  }, [searchName]);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="search-content">

@@ -31,6 +31,8 @@ const TypePage = () => {
 
   useEffect(() => {
     getType(id);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   return (
